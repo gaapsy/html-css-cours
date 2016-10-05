@@ -3,3 +3,34 @@ Exercice 2
 Consignes :
 - Mettre en forme l'exercice 2
 - Créer ci-dessous un formulaire d'inscription contenant les champs : Prénom, nom, email, mot de passe, checkbox pour accepter un quelconque règlement et un bouton de validation.
+
+<form method="post">
+  <div>
+    <label for="lastname">Nom</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Nom"/>
+  </div>
+
+  <div>
+    <label for="name">Prénom</label>
+    <input type="text" id="name" name="name" placeholder="Prénom"/>
+  </div>
+
+  <div>
+    <label for="email">email</label>
+    <input type="text" id="email" name="email" placeholder="email"/>
+  </div>
+
+  <div>
+    <label for="password">mot de passe</label>
+    <input type="password" id="password" name="password" placeholder="mot de passe"/>
+  </div>
+
+  <div>
+    <label for="cgu">En cliquant, je reconnais avoir lu les conditions générales d'utilisation</label>
+    <input type="checkbox" id="cgu" name="cgu"/>
+  </div>
+
+  <div>
+    <button type="submit">Envoyer</button>
+  </div>
+</form>
